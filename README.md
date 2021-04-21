@@ -4,8 +4,8 @@
 
 | Map         | Lien                                                                                                 |
 | ----------- | ---------------------------------------------------------------------------------------------------- |
-| Pub         | https://play.workadventu.re/_/global/jpreisner.github.io/workadventure-map-sb-u/pub/map.json         |
-| Starter Kit | https://play.workadventu.re/_/global/jpreisner.github.io/workadventure-map-sb-u/starter-kit/map.json |
+| Pub         | https://play.workadventu.re/_/global/jpreisner.github.io/workadventure-data-factory/pub/map.json         |
+| Starter Kit | https://play.workadventu.re/_/global/jpreisner.github.io/workadventure-data-factory/starter-kit/map.json |
 
 ## Liens utiles
 
