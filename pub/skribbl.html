@@ -8,13 +8,6 @@
       padding: 0em;
     }
 
-    .skribbl_wrapper {
-      position: relative;
-      display: block;
-      margin: auto;
-      height: 60vh;
-    }
-
     iframe {
       border: none;
     }
@@ -43,26 +36,26 @@
 			}
 		</script>	
 		
-	<!-- Iframe du jeu dont l'attribut src sera affecté dynamiquement au click sur le bouton -->
-    <iframe 
-		id="skribblId"
-		class="skribbl_wrapper"
-		title="skribbl-jeu"
-		height="100%"
-		width="75%"
-		frameborder="none"
-		seamless="seamless"
-		allowfullscreen="true"
-		scrolling="yes">
-	</iframe>
-    
-	
-	<iframe src="https://meet.jit.si/global-skribbl#config.startWithAudioMuted=false&config.startWithVideoMuted=false&config.prejoinPageEnabled=false&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&interfaceConfig.MOBILE_APP_PROMO=false&interfaceConfig.HIDE_INVITE_MORE_HEADER=true&interfaceConfig.SHOW_BRAND_WATERMARK=false&interfaceConfig.SHOW_JITSI_WATERMARK=false&interfaceConfig.SHOW_POWERED_BY=false&interfaceConfig.SHOW_PROMOTIONAL_CLOSE_PAGE=false&interfaceConfig.SHOW_WATERMARK_FOR_GUESTS=false&interfaceConfig.TOOLBAR_BUTTONS=%5B%22microphone%22%2C%22camera%22%2C%22closedcaptions%22%2C%22desktop%22%2C%22fullscreen%22%2C%22fodeviceselection%22%2C%22hangup%22%2C%22profile%22%2C%22chat%22%2C%22recording%22%2C%22livestreaming%22%2C%22etherpad%22%2C%22sharedvideo%22%2C%22settings%22%2C%22raisehand%22%2C%22videoquality%22%2C%22filmstrip%22%2C%22feedback%22%2C%22stats%22%2C%22shortcuts%22%2C%22tileview%22%2C%22videobackgroundblur%22%2C%22download%22%2C%22help%22%2C%22mute-everyone%22%5D"
-        title="skribbl-Jitsi"
-        name="jitsiConferenceFrame1"
-        allow="camera; microphone; display-capture"
-        height="100%" 
-	></iframe>
+	<div class="iframe_wrapper">
+		<!-- Iframe du jeu dont l'attribut src sera affecté dynamiquement au click sur le bouton -->
+		<iframe 
+			id="skribblId"
+			src="https://skribbl.io/"
+			title="skribbl-jeu"
+			style="height: 100%; width: 75%; float: left;" height="100%" width="75%" align="left"
+			frameborder="none"
+			seamless="seamless"
+			allowfullscreen="true"
+			scrolling="yes">
+		</iframe>
+
+		<iframe src="https://meet.jit.si/global-skribbl#config.startWithAudioMuted=false&config.startWithVideoMuted=false&config.prejoinPageEnabled=false&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&interfaceConfig.MOBILE_APP_PROMO=false&interfaceConfig.HIDE_INVITE_MORE_HEADER=true&interfaceConfig.SHOW_BRAND_WATERMARK=false&interfaceConfig.SHOW_JITSI_WATERMARK=false&interfaceConfig.SHOW_POWERED_BY=false&interfaceConfig.SHOW_PROMOTIONAL_CLOSE_PAGE=false&interfaceConfig.SHOW_WATERMARK_FOR_GUESTS=false&interfaceConfig.TOOLBAR_BUTTONS=%5B%22microphone%22%2C%22camera%22%2C%22closedcaptions%22%2C%22desktop%22%2C%22fullscreen%22%2C%22fodeviceselection%22%2C%22hangup%22%2C%22profile%22%2C%22chat%22%2C%22recording%22%2C%22livestreaming%22%2C%22etherpad%22%2C%22sharedvideo%22%2C%22settings%22%2C%22raisehand%22%2C%22videoquality%22%2C%22filmstrip%22%2C%22feedback%22%2C%22stats%22%2C%22shortcuts%22%2C%22tileview%22%2C%22videobackgroundblur%22%2C%22download%22%2C%22help%22%2C%22mute-everyone%22%5D"
+			title="skribbl-Jitsi"
+			name="jitsiConferenceFrame1"
+			allow="camera; microphone; display-capture"
+			style="overflow: hidden; height: 100%; width: 25%; " height="100%" width="25%" align="right">
+		</iframe>
+	</div>
   </div>
 </body>
 
